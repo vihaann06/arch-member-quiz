@@ -78,7 +78,7 @@ export const members = [
   },
   {
     id: 'emmanuel',
-    displayName: 'Emmanuel Rassou',
+    displayName: 'Emmanuel Michael Rassou',
     photo: emmanuel,
     birthday: '2004-05-10',
     hometown: 'Cape Town, South Africa',
@@ -204,7 +204,7 @@ export const members = [
   },
   {
     id: 'william',
-    displayName: 'William Gao',
+    displayName: 'William Jinliang Gao',
     photo: william,
     birthday: '2006-01-12',
     hometown: 'Ellicott City, MD',
