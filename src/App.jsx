@@ -86,7 +86,33 @@ export default function App() {
               <span className="hint">Click to reveal</span>
             </div>
             <div className="flashcard-face flashcard-back">
-              <p>{activeMember.displayName}</p>
+              <div className="member-info">
+                <h3 className="member-name">{activeMember.displayName}</h3>
+                {activeMember.birthday && (
+                  <div className="info-row">
+                    <span className="info-label">Birthday:</span>
+                    <span className="info-value">{activeMember.birthday}</span>
+                  </div>
+                )}
+                {activeMember.hometown && (
+                  <div className="info-row">
+                    <span className="info-label">Hometown:</span>
+                    <span className="info-value">{activeMember.hometown}</span>
+                  </div>
+                )}
+                {activeMember.email && (
+                  <div className="info-row">
+                    <span className="info-label">Email:</span>
+                    <span className="info-value">{activeMember.email}</span>
+                  </div>
+                )}
+                {activeMember.phone && (
+                  <div className="info-row">
+                    <span className="info-label">Phone:</span>
+                    <span className="info-value">{activeMember.phone}</span>
+                  </div>
+                )}
+              </div>
             </div>
           </button>
         </section>
